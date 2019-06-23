@@ -9,8 +9,3 @@ selectWindow("Shaded_blobs.png");
 imageCalculator("Divide create 32-bit", "Shaded_blobs.png","Shaded_blobs-1.png");
 selectWindow("Result of Shaded_blobs.png");
 run("8-bit");
-#@ String(label="message",value="boo") msg
-#@ Integer(label="how often?",value=5) count
-for(i=0; i<count; i++) {
-    print(i + ": " + msg);
-}
